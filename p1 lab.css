@@ -1,0 +1,78 @@
+h1{color: brown; font-size: 75px;}
+input{ color: black; height: 15; width: 25;}
+
+.MED{
+    color: rgb(175, 139, 208); font-style: oblique;
+}
+.header{
+    background-color: #f5f3de;
+    display: flex;   /* بيخلي الحاجات جنب بعضها*/
+    justify-content:center; /* مسافات متسوية بينهم*/
+    align-items: center; /*center of home par */
+    padding: 10px 10px 10px 10px; /*المسافات بين اللكلام وباك جروند */
+}
+.logo{
+    height: 75px; width: 150px;
+    padding: 10px 25px 25px 25px;
+    border-radius: 50px;
+}
+.bar a{
+    height: 100px; width: 250px;
+color: rgb(30, 57, 168);
+padding: 4px; /*مساقات ما بين البار والتاني*/
+text-decoration:none ; /*شال الخطوط اللى تحت البار وفي خيارت تانية*/
+border-radius: 35px;
+
+} /*احنا هنا هنتحكم في شكل البار كله */
+.bar input{
+    color: rgb(30, 57, 168);
+    padding: 4px; /*مساقات ما بين البار والتاني*/
+    text-decoration:none ; /*شال الخطوط اللى تحت البار وفي خيارت تانية*/
+    border-radius: 35px;
+    
+    }
+.bar a:hover{
+    color:azure;
+    background-color: rgb(9, 14, 145);
+}
+.bar input{
+    background-color:white;
+}
+.bar input:hover{
+    background-color: #deebf5;
+}
+.bar button{
+    height: 30px;
+    width: 100px;
+    color: rgb(255, 255, 255);
+    background-color: #fd605b;
+    border-radius: 30px;
+}
+.bar button:hover{
+    color: #fd605b;
+    background-color:rgb(255, 255, 255) ;
+}
+
+.area{
+    background-color:#f5f3de ;
+    display: flex;
+}
+.area h1{
+    margin: 0px;
+}
+
+.area button{
+    height: 40px;
+    width: 150px;
+    color: rgb(255, 255, 255);
+    background-color: #fd605b;
+    border-radius: 30px;
+}
+.area button:hover{
+    color: #fd605b;
+    background-color:rgb(255, 255, 255) ;
+}
+
+
+
+    
